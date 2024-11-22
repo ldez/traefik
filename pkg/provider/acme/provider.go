@@ -102,8 +102,6 @@ type Propagation struct {
 	DelayBeforeChecks ptypes.Duration `description:"Defines the delay before checking the challenge TXT record propagation." json:"delayBeforeChecks,omitempty" toml:"delayBeforeChecks,omitempty" yaml:"delayBeforeChecks,omitempty" export:"true"`
 }
 
-// DNSChallenge.Propagation.disableANS
-
 // HTTPChallenge contains HTTP challenge configuration.
 type HTTPChallenge struct {
 	EntryPoint string `description:"HTTP challenge EntryPoint" json:"entryPoint,omitempty" toml:"entryPoint,omitempty" yaml:"entryPoint,omitempty" export:"true"`
